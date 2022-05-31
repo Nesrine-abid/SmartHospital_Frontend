@@ -36,12 +36,12 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 // core components
-import Header from "components/Headers/Header.js";
+import AdminHeader from "components/Headers/AdminHeader.js";
 
 const Tables = () => {
   return (
     <>
-      <Header />
+      <AdminHeader />
       {/* Page content */}
       <Container className="mt--7" fluid>
         {/* Table */}

@@ -67,7 +67,7 @@ const Login = () => {
                                 </label>
                             </div>
                             <div className="text-center">
-                                <Link to="/admin/user-profile">
+                                <Link to="/admin/admin-profile">
                                     <Button className="my-4" color="primary" type="button" to="/admin/user-profile">
                                         Sign in
                                     </Button>

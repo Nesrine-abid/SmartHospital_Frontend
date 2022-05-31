@@ -88,7 +88,7 @@ const RegisterPatient = (props) => {
                                 </FormGroup>
                                 <FormGroup>
                                     <InputGroup className="input-group-alternative mb-3">
-                                        <Input placeholder="Date_of_Birth" type="text"/>
+                                        <Input placeholder="Date_of_Birth" type="date"/>
                                     </InputGroup>
                                 </FormGroup>
                                 <FormGroup>

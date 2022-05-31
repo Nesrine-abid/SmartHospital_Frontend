@@ -1,11 +1,12 @@
 import Index from "views/Index.js";
 import Profile from "views/examples/Profile.js";
+import ApproveEmployee from "views/examples/ApproveEmployee.js";
 import home from "views/examples/home.js";
 import Maps from "views/examples/Maps.js";
 import RegisterPatient from "views/examples/RegisterPatient.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
-import Icons from "views/examples/Icons.js";
+import Doctors from "views/examples/Doctors.js";
 import RegisterEmployee from "./views/examples/RegisterEmployee";
 
 var routes = [
@@ -23,11 +24,18 @@ var routes = [
         component: Index,
         layout: "/admin",
     },
+        {
+        path: "/ApproveEmployee",
+        name: "Approve Employee",
+        icon: "ni ni-tv-2 text-primary",
+        component: ApproveEmployee,
+        layout: "/admin",
+    },
     {
-        path: "/icons",
-        name: "Icons",
-        icon: "ni ni-planet text-blue",
-        component: Icons,
+        path: "/doctors",
+        name: "Doctors",
+        icon: "ni ni-single-02 text-yellow",
+        component: Doctors,
         layout: "/admin",
     },
     {
@@ -67,7 +75,7 @@ var routes = [
     },
     {
         path: "/registerEmployee",
-        name: "RegisterPatient",
+        name: "RegisterEmployee",
         icon: "ni ni-circle-08 text-pink",
         component: RegisterEmployee,
         layout: "/auth",
